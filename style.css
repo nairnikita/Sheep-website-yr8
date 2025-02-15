@@ -1,0 +1,53 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+/* NAVBAR */
+.darkgreen{
+  background-color: #465902;
+} 
+
+
+/* BACKGROUND */
+.lightbrown{
+  background-color: #f3dbbe; 
+}
+
+/* NAVBAR TEXT */
+.white{
+  color: #ffffff; 
+}
+
+
+/* START OF LINK STYLING*/
+#Link:link {
+color: green;
+background-color: transparent;
+text-decoration: underline;
+}
+#Link:visited {
+color: darkseagreen;
+background-color: transparent;
+text-decoration: underline;
+}
+#Link:hover {
+color: #08a197;
+background-color: transparent;
+text-decoration: underline;
+}
+/*END OF LINK STYLING */
+
+
+/* FONT */
+.font{
+  font-family: 'Lato', sans-serif;
+}
+
+
+/* HIGHLIGHT COLOUR */
+::selection {
+  color: white;
+  background-color: darkseagreen;
+}
